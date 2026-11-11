@@ -1,0 +1,74 @@
+/* Jamkita — a friendly neighbourhood co-op dashboard.
+   Three attributes: friendly, clear, fair. Motif: the 12-segment clock ring.
+   Contrast of every text and control pair below was checked against WCAG AA. */
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --paper: #f3f6ee; /* page: pale rice-field green */
+  --card: #ffffff;
+  --card-tint: #f8faf4;
+  --line: #dce4d4; /* dividers */
+  --line-control: #7d8c74; /* input and control borders, 3.57:1 on white */
+
+  /* Ink */
+  --ink: #1f3527; /* 12:1 on paper */
+  --ink-2: #4a5d4f; /* 6.5:1 on paper */
+  --ink-3: #5f6f63; /* 4.9:1 on paper, 5.3:1 on white */
+
+  /* Leaf green: plus, primary actions */
+  --leaf: #2f7a3b; /* white text 5.3:1 */
+  --leaf-deep: #23602c;
+  --leaf-ink: #1f6a2b; /* text, 6.7:1 on white */
+  --leaf-soft: #e3f0df;
+
+  /* Turmeric orange: minus, attention */
+  --turmeric: #b5730a; /* ring fill, 3.2:1 on track, 3.9:1 on white */
+  --turmeric-bright: #e8a33a; /* highlight with ink text, 6.1:1 */
+  --turmeric-ink: #8a5300; /* text, 6.3:1 on white */
+  --turmeric-soft: #fbefd6;
+
+  /* Clay: destructive and errors */
+  --clay: #a63a28;
+  --clay-soft: #fbe7e2;
+
+  /* Ring */
+  --ring-track: #e4eadd;
+
+  /* Footer */
+  --deep: #1f3527;
+  --deep-ink: #e9efe3;
+  --deep-muted: #b9c8b4;
+
+  /* Type */
+  --font: 'Nunito Variable', 'Nunito', ui-rounded, 'Segoe UI', system-ui, sans-serif;
+  --text-xs: 0.8125rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: clamp(2rem, 1.4rem + 2.6vw, 2.875rem);
+
+  /* Space, on a 4 px rhythm */
+  --s1: 0.25rem;
+  --s2: 0.5rem;
+  --s3: 0.75rem;
+  --s4: 1rem;
+  --s5: 1.5rem;
+  --s6: 2rem;
+  --s7: 3rem;
+  --s8: 4.5rem;
+
+  --radius: 10px;
+  --radius-sm: 7px;
+  --radius-pill: 999px;
+  --shadow: 0 1px 2px rgb(31 53 39 / 6%), 0 2px 8px rgb(31 53 39 / 5%);
+  --shadow-lift: 0 10px 30px rgb(31 53 39 / 18%);
+
+  --wrap: 1120px;
+  --gutter: clamp(1rem, 0.6rem + 1.8vw, 2rem);
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
